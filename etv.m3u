@@ -1,7 +1,7 @@
 #EXTM3U url-tvg="https://raw.githubusercontent.com/akkradet/IPTV-THAI/master/guide.xml,https://www.bevy.be/bevyfiles/thailand.xml" refresh="3600" 
 #EXTM3U x-tvg-url="https://i.mjh.nz/SamsungTVPlus/us.xml"
 
-#EXTINF:-1 tvg-chno="2" tvg-id="HangMeasHDTV.kh" tvg-name="HangMeas HDTV" group-title="Digital TV" tvg-logo="https://i.imgur.com/P8oOR8I.png",HangMeas HDTV
+#EXTINF:-1 tvg-chno="2" tvg-id="HangMeasHDTV.kh" tvg-name="HangMeas HDTV" group-title="Digital TV" tvg-logo="https://etv-tau.vercel.app/icons/HM.png",HangMeas HDTV
 #EXTVLCOPT:http-user-agent=Android ExoPlayer/2.17.0
 http://clive.malisresidences.com:1935/hm_hdtv/_definst_/smil:HMHDTV.smil/playlist.m3u8
 
