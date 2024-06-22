@@ -1,258 +1,219 @@
-#EXTM3U url-tvg="https://raw.githubusercontent.com/akkradet/IPTV-THAI/master/guide.xml,https://www.bevy.be/bevyfiles/thailand.xml" refresh="3600" 
-#EXTM3U x-tvg-url="https://i.mjh.nz/SamsungTVPlus/us.xml"
-
-#EXTINF:-1 tvg-chno="2" tvg-id="HangMeasHDTV.kh" tvg-name="HangMeas HDTV" group-title="Digital TV" tvg-logo="https://etv-tau.vercel.app/icons/HM.png",HangMeas HDTV
-#EXTVLCOPT:http-user-agent=Android ExoPlayer/2.17.0
+#EXTM3U 
+#EXTINF: -1 tvg-id="HangMeasHDTV.kh" tvg-name="ហង្សមាស HDTV" tvg-chno="2" tvg-logo="https://etv-tau.vercel.app/icons/HM.png" group-title="Digital TV", ហង្សមាស HDTV
 http://clive.malisresidences.com:1935/hm_hdtv/_definst_/smil:HMHDTV.smil/playlist.m3u8
-
-#EXTINF:-1 tvg-chno="3" tvg-id="RasmeyHangMeasHDTV.kh" tvg-name="RasmeyHangMeas HDTV" group-title="Digital TV" tvg-logo="https://etv-tau.vercel.app/icons/RHM.png",ReaksmeyHangMeas HDTV
-#EXTVLCOPT:http-user-agent=Android ExoPlayer/2.17.0
+#EXTINF: -1 tvg-id="RasmeyHangMeasHDTV.kh" tvg-name="រស្មីហង្សមាស" tvg-chno="3" tvg-logo="https://etv-tau.vercel.app/icons/RHM.png" group-title="Digital TV", រស្មីហង្សមាស
 http://clive.malisresidences.com:1935/rhm_hdtv/_definst_/smil:RHMHDTV.smil/playlist.m3u8
-
-#EXTINF:-1 tvg-chno="4" tvg-id="PNN.kh" tvg-name="PNN" group-title="Digital TV" tvg-logo="https://api.netlinkbroadcaster.com/uploads/pnn_b4a623ab84.jpg",PNN
-#EXTVLCOPT:http-user-agent=Android ExoPlayer/2.17.0
+#EXTINF: -1 tvg-id="PNN.kh" tvg-name="PNN" tvg-chno="4" tvg-logo="https://api.netlinkbroadcaster.com/uploads/pnn_b4a623ab84.jpg" group-title="Digital TV", PNN
 https://live.kh.malimarcdn.com/live/pnntvhd.stream/playlist.m3u8
-
-#EXTINF:-1 tvg-chno="5" tvg-id="TVK.kh" tvg-name="TVK (ទទក)" group-title="Digital TV" tvg-logo="https://i.imgur.com/5hPxjcl.png",TVK (ទទក)
-#EXTVLCOPT:http-user-agent=Android ExoPlayer/2.17.0
+#EXTINF: -1 tvg-id="TVK.kh" tvg-name="TVK (ទទក)" tvg-chno="5" tvg-logo="https://i.imgur.com/5hPxjcl.png" group-title="Digital TV", TVK (ទទក)
 https://live.kh.malimarcdn.com/live/tvk.stream/playlist.m3u8
-
-#EXTINF:-1 tvg-chno="6" tvg-id="TVK2.kh" tvg-name="TVK2 (ទទក)" group-title="Digital TV" tvg-logo="src="https://i.imgur.com/L36ptO2.png",TVK2 (ទទក)
-#EXTVLCOPT:http-user-agent=Android ExoPlayer/2.17.0
+#EXTINF: -1 tvg-id="TVK2.kh" tvg-name="TVK2 (ទទក)" tvg-chno="6" tvg-logo="https://api.netlinkbroadcaster.com/uploads/tvk2_35d34c766a.jpg" group-title="Digital TV", TVK2 (ទទក)
 https://live.kh.malimarcdn.com/live/tvk2.stream/playlist.m3u8
-
-#EXTINF:-1 tvg-chno="7" tvg-id="TV5Cambodia.kh" tvg-name="HangMeas Now" group-title="Digital TV" tvg-logo="src="https://etv-tau.vercel.app/icons/Hang_Meas_Now_UHDTV.png",HangMeas Now
-#EXTVLCOPT:http-user-agent=Android ExoPlayer/2.17.0
+#EXTINF: -1 tvg-id="TV5Cambodia.kh" tvg-name="HangMeas Now" tvg-chno="7" tvg-logo="https://etv-tau.vercel.app/icons/Hang_Meas_Now_UHDTV.png" group-title="Digital TV", HangMeas Now
 https://live.kh.malimarcdn.com/live/tv5.stream/playlist.m3u8
-
-#EXTINF:-1 tvg-chno="8" tvg-id="TownTV.kh" tvg-name="Town FHD" group-title="Digital TV" tvg-logo="src="https://i.imgur.com/9fUGvVG.png",Town FHD
-#EXTVLCOPT:http-user-agent=Android ExoPlayer/2.17.0
+#EXTINF: -1 tvg-id="TownTV.kh" tvg-name="Town FHD" tvg-chno="8" tvg-logo="https://api.netlinkbroadcaster.com/uploads/Town_HDTV_7f2a0b567a.jpg" group-title="Digital TV", Town FHD
 https://live.kh.malimarcdn.com/live/towntv.stream/playlist.m3u8
-
-#EXTINF:-1 tvg-chno="6" tvg-id="BayonTV.kh" tvg-name="Bayon TV" group-title="Digital TV" tvg-logo="src="https://i.imgur.com/L36ptO2.png",Bayon TV
-#EXTVLCOPT:http-user-agent=Android ExoPlayer/2.17.0
+#EXTINF: -1 tvg-id="BayonTV.kh" tvg-name="Bayon TV" tvg-chno="6" tvg-logo="https://api.netlinkbroadcaster.com/uploads/bayon_bca5044cec.jpg" group-title="Digital TV", Bayon TV
 https://live.kh.malimarcdn.com/live/bayonhd.stream/playlist.m3u8
-
-#EXTINF:-1 tvg-chno="122" tvg-id="BTVNews.kh" tvg-name="BTV KH" group-title="Digital TV" tvg-logo="src="https://api.netlinkbroadcaster.com/uploads/BTV_85cf065dd9.png",BTV KH
-#EXTVLCOPT:http-user-agent=Android ExoPlayer/2.17.0
+#EXTINF: -1 tvg-id="BTVNews.kh" tvg-name="BTV KH" tvg-chno="122" tvg-logo="https://api.netlinkbroadcaster.com/uploads/BTV_85cf065dd9.png" group-title="Digital TV", BTV KH
 https://live.kh.malimarcdn.com/live/btv.stream/chunklist.m3u8
-
-#EXTINF:-1 tvg-chno="123" tvg-id="BTVNews.kh" tvg-name="Fresh News" group-title="Digital TV" tvg-logo="src="https://etv-tau.vercel.app/icons/Freshnews-logo.png",Fresh News
-#EXTVLCOPT:http-user-agent=Android ExoPlayer/2.17.0
+#EXTINF: -1 tvg-logo="https://1.bp.blogspot.com/-ry1TehJqH8k/XP-uSTC-CFI/AAAAAAAAIDM/93ARBEtBtkM1F1gEOzT0aobyZLIRjs1bQCLcBGAs/s1600/apsara.jpg" group-title="Digital TV", Apsara TV
+https://live.ams.com.kh/app/stream/playlist.m3u8
+#EXTINF: -1 tvg-id="BTVNews.kh" tvg-name="Fresh News" tvg-chno="123" tvg-logo="https://etv-tau.vercel.app/icons/Freshnews-logo.png" group-title="Digital TV", Fresh News
 http://streaming.freshnewsasia.com:1935/live/myStream/playlist.m3u8
-
-#EXTINF:-1 tvg-chno="7" tvg-id="ONE 31 HD.th" tvg-name="ONE 31 HD" group-title="Digital TV" tvg-logo="https://raw.githubusercontent.com/akkradet/IPTV-THAI/master/logo/0012.png",ONE 31 HD
-#EXTVLCOPT:http-user-agent=Android ExoPlayer/2.17.0
+#EXTINF: -1 tvg-logo="https://1.bp.blogspot.com/-h7PXybd1ytM/XP-uU40jVZI/AAAAAAAAIDs/WLlkZEXBCSkYT3aPilqml-wy8QFOsFS0QCLcBGAs/s1600/tv5.jpg" group-title="Digital TV", TV5 Cambodia
+https://live.kh.malimarcdn.com/live/tv5.stream/chunklist.m3u8
+#EXTINF: -1 tvg-logo="https://1.bp.blogspot.com/-aXoLX3QrZ5s/XP-uRyVeHhI/AAAAAAAAIDA/pYfiwUQqX_0zvtyMglVawvi1VrVziobJQCLcBGAs/s1600/TV9.png" group-title="Digital TV", TV9 HD Cambodia
+https://live.kh.malimarcdn.com/live/tv9.stream/chunklist.m3u8
+#EXTINF: -1 tvg-logo="https://1.bp.blogspot.com/-bgDn1dQ1t4g/XUDrLGYOeRI/AAAAAAAAIxw/WOuam344DSoPPqAkyMRJy2S31HA4KykcgCLcBGAs/s1600/khmerTV.png" group-title="Digital TV", Khmer TV
+https://livefta.malimarcdn.com/ftaedge00/khmertv2020.stream/playlist.m3u8
+#EXTINF: -1 tvg-logo="https://1.bp.blogspot.com/-geIS7akvS2Q/XP-uRz21G9I/AAAAAAAAIDE/Ui-vOansPcI5g_CLEgdn7xejR1VzjU2ZQCLcBGAs/s1600/SEATV.png" group-title="Digital TV", SEA TV Cambodia
+https://seatv.netlinkbroadcaster.com/hls/test.m3u8
+#EXTINF: -1 tvg-id="ONE 31 HD.th" tvg-name="ONE 31 HD" tvg-chno="7" tvg-logo="https://raw.githubusercontent.com/akkradet/IPTV-THAI/master/logo/0012.png" group-title="Digital TV", ONE 31 HD
 https://cdn6.goprimetime.info/feed/eI5rczhSQpWBcgOtqRLNWw/chonehd3/index.m3u8
-
-#EXTINF:-1 tvg-chno="8" tvg-id="Thairath TV HD.th" tvg-name="Thairath TV HD" group-title="Digital TV" tvg-logo="https://raw.githubusercontent.com/akkradet/IPTV-THAI/master/logo/0013_R.png",Thairath TV HD
-#EXTVLCOPT:http-user-agent=Android ExoPlayer/2.17.0
+#EXTINF: -1 tvg-id="Thairath TV HD.th" tvg-name="Thairath TV HD" tvg-chno="8" tvg-logo="https://raw.githubusercontent.com/akkradet/IPTV-THAI/master/logo/0013_R.png" group-title="Digital TV", Thairath TV HD
 https://cdn6.goprimetime.info/feed/eI5rczhSQpWBcgOtqRLNWw/chthairath3/index.m3u8
-
-#EXTINF:-1 tvg-chno="9" tvg-id="3 HD.th" tvg-name="3 HD" group-title="Digital TV" tvg-logo="https://raw.githubusercontent.com/akkradet/IPTV-THAI/master/logo/LOGO3HD.PNG",3 HD
-#EXTVLCOPT:http-user-agent=Android ExoPlayer/2.17.0
+#EXTINF: -1 tvg-id="3 HD.th" tvg-name="3 HD" tvg-chno="9" tvg-logo="https://raw.githubusercontent.com/akkradet/IPTV-THAI/master/logo/LOGO3HD.PNG" group-title="Digital TV", 3 HD
 https://cdn6.goprimetime.info/feed/eI5rczhSQpWBcgOtqRLNWw/ch3hd3/index.m3u8
-
-#EXTINF:-1 tvg-chno="10" tvg-id="AmarinTV HD.th" tvg-name="AmarinTV HD" group-title="Digital TV" tvg-logo="https://raw.githubusercontent.com/akkradet/IPTV-THAI/master/logo/AmarinTV_NEW512.png",AmarinTV HD
-#EXTVLCOPT:http-user-agent=Android ExoPlayer/2.17.0
-https://cdn6.goprimetime.info/feed/eI5rczhSQpWBcgOtqRLNWw/chamarin3/index.m3u8
-
-#EXTINF:-1 tvg-chno="11" tvg-id="CH7 HD.th" tvg-name="CH7 HD" group-title="Digital TV" tvg-logo="https://raw.githubusercontent.com/akkradet/IPTV-THAI/master/logo/0018.png",CH7 HD
-#EXTVLCOPT:http-user-agent=Android ExoPlayer/2.17.0
+#EXTINF: -1 tvg-id="CH7 HD.th" tvg-name="CH7 HD" tvg-chno="11" tvg-logo="https://raw.githubusercontent.com/akkradet/IPTV-THAI/master/logo/0018.png" group-title="Digital TV", CH7 HD
 http://streaming-hwc.ch7.com/livech7hd/HD.m3u8
-
-#EXTINF:-1 tvg-chno="12" tvg-id="PPTV HD.th" tvg-name="PPTV HD" group-title="Digital TV" tvg-logo="https://raw.githubusercontent.com/akkradet/IPTV-THAI/master/logo/R_0022.png",PPTV HD
-#EXTVLCOPT:http-user-agent=Android ExoPlayer/2.17.0
+#EXTINF: -1 tvg-id="AmarinTV HD.th" tvg-name="AmarinTV HD" tvg-chno="10" tvg-logo="https://raw.githubusercontent.com/akkradet/IPTV-THAI/master/logo/AmarinTV_NEW512.png" group-title="Digital TV", AmarinTV HD
+https://cdn6.goprimetime.info/feed/eI5rczhSQpWBcgOtqRLNWw/chamarin3/index.m3u8
+#EXTINF: -1 tvg-id="PPTV HD.th" tvg-name="PPTV HD" tvg-chno="12" tvg-logo="https://raw.githubusercontent.com/akkradet/IPTV-THAI/master/logo/R_0022.png" group-title="Digital TV", PPTV HD
 http://appdootv2.dootvde.com:1935/live/50026_pptv_hd.stream.smil/playlist.m3u8
-
-#EXTINF:-1 tvg-chno="13" tvg-id="Channel 8.th" tvg-name="Channel 8" group-title="Digital TV" tvg-logo="https://raw.githubusercontent.com/akkradet/IPTV-THAI/master/logo/8.jpg",Channel 8
-#EXTVLCOPT:http-user-agent=Android ExoPlayer/2.17.0
+#EXTINF: -1 tvg-id="Channel 8.th" tvg-name="Channel 8" tvg-chno="13" tvg-logo="https://raw.githubusercontent.com/akkradet/IPTV-THAI/master/logo/8.jpg" group-title="Digital TV", Channel 8
 https://cdn-th-vip.login.in.th:443/ch8/ch8/chunklist.m3u8
-
-#EXTINF:-1 tvg-chno="14" tvg-id="Jomyut" tvg-name="Jomyut" group-title="Digital TV" tvg-logo="https://raw.githubusercontent.com/akkradet/IPTV-THAI/master/logo/x240.png",Jomyut
-#EXTVLCOPT:http-user-agent=Android ExoPlayer/2.17.0
+#EXTINF: -1 tvg-id="Jomyut" tvg-name="Jomyut" tvg-chno="14" tvg-logo="https://raw.githubusercontent.com/akkradet/IPTV-THAI/master/logo/x240.png" group-title="Digital TV", Jomyut
 http://49.0.87.24:1936/HDJomyut/Jomyut/playlist.m3u8
-
-#EXTINF:-1 tvg-chno="15" tvg-id="Parliament.th" tvg-name="Parliament" group-title="Digital TV" tvg-logo="https://raw.githubusercontent.com/akkradet/IPTV-THAI/master/logo/0048.png",Parliament
-#EXTVLCOPT:http-user-agent=Android ExoPlayer/2.17.0
+#EXTINF: -1 tvg-logo="https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/a9/e5/1d/a9e51df0-cddb-8861-294a-55edebc2204f/AppIcon-0-0-1x_U007emarketing-0-7-0-0-85-220.png/434x0w.webp" group-title="Digital TV", MOI-TV
+http://202.62.56.22:8080/hls/MOITV.m3u8
+#EXTINF: -1 tvg-id="Parliament.th" tvg-name="Parliament" tvg-chno="15" tvg-logo="https://raw.githubusercontent.com/akkradet/IPTV-THAI/master/logo/0048.png" group-title="Digital TV", Parliament
 https://cdn6.goprimetime.info/feed/eI5rczhSQpWBcgOtqRLNWw/TPTV3/index.m3u8
-
-#EXTINF:-1 tvg-chno="16" tvg-id="MOVIES WORLD 1.th" tvg-name="MOVIES WORLD 1" group-title="Digital TV" tvg-logo="https://raw.githubusercontent.com/akkradet/IPTV-THAI/master/logo/mw1.jpg",MOVIES WORLD 1
-#EXTVLCOPT:http-user-agent=Android ExoPlayer/2.17.0
+#EXTINF: -1 tvg-id="MOVIES WORLD 1.th" tvg-name="MOVIES WORLD 1" tvg-chno="16" tvg-logo="https://raw.githubusercontent.com/akkradet/IPTV-THAI/master/logo/mw1.jpg" group-title="Digital TV", MOVIES WORLD 1
 https://cdn6.goprimetime.info/feed/eI5rczhSQpWBcgOtqRLNWw/LC11/index.m3u8
-
-#EXTINF:-1 tvg-chno="17" tvg-id="MOVIES WORLD 2.th" tvg-name="MOVIES WORLD 2" group-title="Digital TV" tvg-logo="https://raw.githubusercontent.com/akkradet/IPTV-THAI/master/logo/mw2.jpg",MOVIES WORLD 2
-#EXTVLCOPT:http-user-agent=Android ExoPlayer/2.17.0
+#EXTINF: -1 tvg-id="MOVIES WORLD 2.th" tvg-name="MOVIES WORLD 2" tvg-chno="17" tvg-logo="https://raw.githubusercontent.com/akkradet/IPTV-THAI/master/logo/mw2.jpg" group-title="Digital TV", MOVIES WORLD 2
 https://cdn6.goprimetime.info/feed/eI5rczhSQpWBcgOtqRLNWw/LC53/index.m3u8
-
-#EXTINF:-1 tvg-chno="18" tvg-id="MOVIES WORLD 3.th" tvg-name="MOVIES WORLD 3" group-title="Digital TV" tvg-logo="https://raw.githubusercontent.com/akkradet/IPTV-THAI/master/logo/mw3.jpg",MOVIES WORLD 3
-#EXTVLCOPT:http-user-agent=Android ExoPlayer/2.17.0
+#EXTINF: -1 tvg-id="MOVIES WORLD 3.th" tvg-name="MOVIES WORLD 3" tvg-chno="18" tvg-logo="https://raw.githubusercontent.com/akkradet/IPTV-THAI/master/logo/mw3.jpg" group-title="Digital TV", MOVIES WORLD 3
 https://cdn6.goprimetime.info/feed/eI5rczhSQpWBcgOtqRLNWw/LC2/index.m3u8
-
-#EXTINF:-1 tvg-chno="19" tvg-id="ANIMAL KINGDOM.th" tvg-name="ANIMAL KINGDOM" group-title="Digital TV" tvg-logo="https://raw.githubusercontent.com/akkradet/IPTV-THAI/master/logo/ak.jpg",ANIMAL KINGDOM
-#EXTVLCOPT:http-user-agent=Android ExoPlayer/2.17.0
+#EXTINF: -1 tvg-id="ANIMAL KINGDOM.th" tvg-name="ANIMAL KINGDOM" tvg-chno="19" tvg-logo="https://raw.githubusercontent.com/akkradet/IPTV-THAI/master/logo/ak.jpg" group-title="Digital TV", ANIMAL KINGDOM
 https://cdn6.goprimetime.info/feed/eI5rczhSQpWBcgOtqRLNWw/LC18/index.m3u8
-
-#EXTINF:-1 tvg-chno="20" tvg-id="ATTV.th" tvg-name="ATTV" group-title="Digital TV" tvg-logo="https://raw.githubusercontent.com/akkradet/IPTV-THAI/master/logo/0039.png",ATTV
-#EXTVLCOPT:http-user-agent=Android ExoPlayer/2.17.0
+#EXTINF: -1 tvg-id="ATTV.th" tvg-name="ATTV" tvg-chno="20" tvg-logo="https://raw.githubusercontent.com/akkradet/IPTV-THAI/master/logo/0039.png" group-title="Digital TV", ATTV
 http://49.0.87.24:1936/HDAttv/Attv/playlist.m3u8
-
-#EXTINF:-1 tvg-chno="21" tvg-id="TNN.th" tvg-name="TNN" group-title="Digital TV" tvg-logo="https://raw.githubusercontent.com/akkradet/IPTV-THAI/master/logo/R2_0053.png",TNN
-#EXTVLCOPT:http-user-agent=Android ExoPlayer/2.17.0
+#EXTINF: -1 tvg-id="TNN.th" tvg-name="TNN" tvg-chno="21" tvg-logo="https://raw.githubusercontent.com/akkradet/IPTV-THAI/master/logo/R2_0053.png" group-title="Digital TV", TNN
 https://cdn6.goprimetime.info/feed/eI5rczhSQpWBcgOtqRLNWw/chtnn3/index.m3u8
-
-#EXTINF:-1 tvg-chno="22" tvg-id="TVB Thai.th" tvg-name="TVB Thai" group-title="Digital TV" tvg-logo="https://raw.githubusercontent.com/akkradet/IPTV-THAI/master/logo/TVBThai.png",TVB Thai
-#EXTVLCOPT:http-user-agent=Android ExoPlayer/2.17.0
+#EXTINF: -1 tvg-id="TVB Thai.th" tvg-name="TVB Thai" tvg-chno="22" tvg-logo="https://raw.githubusercontent.com/akkradet/IPTV-THAI/master/logo/TVBThai.png" group-title="Digital TV", TVB Thai
 https://edge6a.v2h-cdn.com/tvb_thai/tvb_thai.stream/playlist.m3u8
-
-#EXTINF:-1 tvg-chno="23" tvg-id="JKN 18.th" tvg-name="JKN 18" group-title="Digital TV" tvg-logo="https://raw.githubusercontent.com/akkradet/IPTV-THAI/master/logo/JKN18.png",JKN 18
-#EXTVLCOPT:http-user-agent=Android ExoPlayer/2.17.0
+#EXTINF: -1 tvg-id="JKN 18.th" tvg-name="JKN 18" tvg-chno="23" tvg-logo="https://raw.githubusercontent.com/akkradet/IPTV-THAI/master/logo/JKN18.png" group-title="Digital TV", JKN 18
 https://cdn6.goprimetime.info/feed/eI5rczhSQpWBcgOtqRLNWw/newtv3/index.m3u8
-
-#EXTINF:-1 tvg-chno="24" tvg-id="7Flix.th" tvg-name="7Flix" group-title="Digital TV" tvg-logo="https://raw.githubusercontent.com/akkradet/IPTV-THAI/master/logo/7flix.jpg",7Flix
-#EXTVLCOPT:http-user-agent=Android ExoPlayer/2.17.0
+#EXTINF: -1 tvg-id="7Flix.th" tvg-name="7Flix" tvg-chno="24" tvg-logo="https://raw.githubusercontent.com/akkradet/IPTV-THAI/master/logo/7flix.jpg" group-title="Digital TV", 7Flix
 https://cdn6.goprimetime.info/feed/eI5rczhSQpWBcgOtqRLNWw/LC5/index.m3u8
-
-#EXTINF:-1 tvg-chno="25" tvg-id="Mangkorn.th" tvg-name="Mangkorn" group-title="Digital TV" tvg-logo="https://raw.githubusercontent.com/akkradet/IPTV-THAI/master/logo/0159.png",Mangkorn
-#EXTVLCOPT:http-user-agent=Android ExoPlayer/2.17.0
+#EXTINF: -1 tvg-id="Mangkorn.th" tvg-name="Mangkorn" tvg-chno="25" tvg-logo="https://raw.githubusercontent.com/akkradet/IPTV-THAI/master/logo/0159.png" group-title="Digital TV", Mangkorn
 http://49.0.87.24:1936/HDDragon/Dragon/playlist.m3u8
-
-#EXTINF:-1 tvg-chno="26" tvg-id="News 1.th" tvg-name="News 1" group-title="Digital TV" tvg-logo="https://raw.githubusercontent.com/akkradet/IPTV-THAI/master/logo/0036.png",News 1
-#EXTVLCOPT:http-user-agent=Android ExoPlayer/2.17.0
+#EXTINF: -1 tvg-id="News 1.th" tvg-name="News 1" tvg-chno="26" tvg-logo="https://raw.githubusercontent.com/akkradet/IPTV-THAI/master/logo/0036.png" group-title="Digital TV", News 1
 http://news1.live14.com/stream/news1.m3u8
-
-#EXTINF:-1 tvg-chno="27" tvg-id="Nation TV.th" tvg-name="Nation TV" group-title="Digital TV" tvg-logo="https://raw.githubusercontent.com/akkradet/IPTV-THAI/master/logo/0021.png",Nation TV
-#EXTVLCOPT:http-user-agent=Android ExoPlayer/2.17.0
+#EXTINF: -1 tvg-id="Nation TV.th" tvg-name="Nation TV" tvg-chno="27" tvg-logo="https://raw.githubusercontent.com/akkradet/IPTV-THAI/master/logo/0021.png" group-title="Digital TV", Nation TV
 https://cdn6.goprimetime.info/feed/eI5rczhSQpWBcgOtqRLNWw/chnation3/index.m3u8
-
-#EXTINF:-1 tvg-chno="28" tvg-id="Workpoint TV.th" tvg-name="Workpoint TV" group-title="Digital TV" tvg-logo="https://raw.githubusercontent.com/akkradet/IPTV-THAI/master/logo/0015_R.png",Workpoint TV
-#EXTVLCOPT:http-user-agent=Android ExoPlayer/2.17.0
+#EXTINF: -1 tvg-id="Workpoint TV.th" tvg-name="Workpoint TV" tvg-chno="28" tvg-logo="https://raw.githubusercontent.com/akkradet/IPTV-THAI/master/logo/0015_R.png" group-title="Digital TV", Workpoint TV
 https://cdn6.goprimetime.info/feed/eI5rczhSQpWBcgOtqRLNWw/chworkpoint3/index.m3u8
-
-#EXTINF:-1 tvg-chno="29" tvg-id="True 4 U.th" tvg-name="True 4 U" group-title="Digital TV" tvg-logo="https://raw.githubusercontent.com/akkradet/IPTV-THAI/master/logo/0054.png",True 4 U
-#EXTVLCOPT:http-user-agent=Android ExoPlayer/2.17.0
+#EXTINF: -1 tvg-id="True 4 U.th" tvg-name="True 4 U" tvg-chno="29" tvg-logo="https://raw.githubusercontent.com/akkradet/IPTV-THAI/master/logo/0054.png" group-title="Digital TV", True 4 U
 https://cdn6.goprimetime.info/feed/eI5rczhSQpWBcgOtqRLNWw/chtrue4u3/index.m3u8
-
-#EXTINF:-1 tvg-chno="30" tvg-id="GMM25.th" tvg-name="GMM25" group-title="Digital TV" tvg-logo="https://raw.githubusercontent.com/akkradet/IPTV-THAI/master/logo/0019.png",GMM25
-#EXTVLCOPT:http-user-agent=Android ExoPlayer/2.17.0
+#EXTINF: -1 tvg-id="GMM25.th" tvg-name="GMM25" tvg-chno="30" tvg-logo="https://raw.githubusercontent.com/akkradet/IPTV-THAI/master/logo/0019.png" group-title="Digital TV", GMM25
 https://cdn6.goprimetime.info/feed/eI5rczhSQpWBcgOtqRLNWw/chgmm3/index.m3u8
-
-#EXTINF:-1 tvg-chno="31" tvg-id="BOX FILM.th" tvg-name="BOX FILM" group-title="Digital TV" tvg-logo="https://raw.githubusercontent.com/akkradet/IPTV-THAI/master/logo/box-flim.png",BOX FILM
-#EXTVLCOPT:http-user-agent=Android ExoPlayer/2.17.0
+#EXTINF: -1 tvg-id="BOX FILM.th" tvg-name="BOX FILM" tvg-chno="31" tvg-logo="https://raw.githubusercontent.com/akkradet/IPTV-THAI/master/logo/box-flim.png" group-title="Digital TV", BOX FILM
 https://cdn6.goprimetime.info/feed/eI5rczhSQpWBcgOtqRLNWw/LC52/index.m3u8
-
-#EXTINF:-1 tvg-chno="32" tvg-id="CH8.th" tvg-name="CH8" group-title="Digital TV" tvg-logo="https://raw.githubusercontent.com/akkradet/IPTV-THAI/master/logo/0006.png",CH8
-#EXTVLCOPT:http-user-agent=Android ExoPlayer/2.17.0
+#EXTINF: -1 tvg-id="CH8.th" tvg-name="CH8" tvg-chno="32" tvg-logo="https://raw.githubusercontent.com/akkradet/IPTV-THAI/master/logo/0006.png" group-title="Digital TV", CH8
 https://cdn6.goprimetime.info/feed/eI5rczhSQpWBcgOtqRLNWw/ch83/index.m3u8
-
-#EXTINF:-1 tvg-chno="33" tvg-id="Cartoon Club.th" tvg-name="Cartoon Club" group-title="Digital TV" tvg-logo="https://raw.githubusercontent.com/akkradet/IPTV-THAI/master/logo/0100.png",Cartoon Club
-#EXTVLCOPT:http-user-agent=Android ExoPlayer/2.17.0
+#EXTINF: -1 tvg-id="Cartoon Club.th" tvg-name="Cartoon Club" tvg-chno="33" tvg-logo="https://raw.githubusercontent.com/akkradet/IPTV-THAI/master/logo/0100.png" group-title="Digital TV", Cartoon Club
 https://edge2-bkk.3bb.co.th:9443/Web_CartoonClub_Live/cartoonclub_480P.stream/chunklist.m3u8
-
-#EXTINF:-1 tvg-chno="34" tvg-id="MONO.th" tvg-name="MONO" group-title="Digital TV" tvg-logo="https://raw.githubusercontent.com/akkradet/IPTV-THAI/master/logo/0016.png",MONO
-#EXTVLCOPT:http-user-agent=Android ExoPlayer/2.17.0
+#EXTINF: -1 tvg-id="MONO.th" tvg-name="MONO" tvg-chno="34" tvg-logo="https://raw.githubusercontent.com/akkradet/IPTV-THAI/master/logo/0016.png" group-title="Digital TV", MONO
 https://cdn6.goprimetime.info/feed/eI5rczhSQpWBcgOtqRLNWw/chmono293/index.m3u8
-
-#EXTINF:-1 tvg-chno="35" tvg-id="MCOT HD.th" tvg-name="MCOT HD" group-title="Digital TV" tvg-logo="https://raw.githubusercontent.com/akkradet/IPTV-THAI/master/logo/MCOT_new.png",MCOT HD
-#EXTVLCOPT:http-user-agent=Android ExoPlayer/2.17.0
+#EXTINF: -1 tvg-id="MCOT HD.th" tvg-name="MCOT HD" tvg-chno="35" tvg-logo="https://raw.githubusercontent.com/akkradet/IPTV-THAI/master/logo/MCOT_new.png" group-title="Digital TV", MCOT HD
 https://cdn6.goprimetime.info/feed/eI5rczhSQpWBcgOtqRLNWw/chmcothd3/index.m3u8
-
-#EXTINF:-1 tvg-chno="36" tvg-id="NBT 2 HD.th" tvg-name="NBT 2 HD" group-title="Digital TV" tvg-logo="https://raw.githubusercontent.com/akkradet/IPTV-THAI/master/logo/0001.png",NBT 2 HD
-#EXTVLCOPT:http-user-agent=Android ExoPlayer/2.17.0
+#EXTINF: -1 tvg-id="NBT 2 HD.th" tvg-name="NBT 2 HD" tvg-chno="36" tvg-logo="https://raw.githubusercontent.com/akkradet/IPTV-THAI/master/logo/0001.png" group-title="Digital TV", NBT 2 HD
 https://cdn6.goprimetime.info/feed/eI5rczhSQpWBcgOtqRLNWw/chnbt3/index.m3u8
-
-#EXTINF:-1 tvg-chno="37" tvg-id="TPBS.th" tvg-name="TPBS" group-title="Digital TV" tvg-logo="https://raw.githubusercontent.com/akkradet/IPTV-THAI/master/logo/0014.png",TPBS
-#EXTVLCOPT:http-user-agent=Android ExoPlayer/2.17.0
+#EXTINF: -1 tvg-id="TPBS.th" tvg-name="TPBS" tvg-chno="37" tvg-logo="https://raw.githubusercontent.com/akkradet/IPTV-THAI/master/logo/0014.png" group-title="Digital TV", TPBS
 https://cdn6.goprimetime.info/feed/eI5rczhSQpWBcgOtqRLNWw/chthaipbs3/index.m3u8
-
-#EXTINF:-1 tvg-chno="38" tvg-id="ALTV4.th" tvg-name="ALTV" group-title="Digital TV" tvg-logo="https://raw.githubusercontent.com/akkradet/IPTV-THAI/master/logo/ALTV.PNG",ALTV
-#EXTVLCOPT:http-user-agent=Android ExoPlayer/2.17.0
-https://cdn6.goprimetime.info/feed/eI5rczhSQpWBcgOtqRLNWw/ALTV3/index.m3u8
-
-#EXTINF:-1 tvg-chno="39" tvg-id="TV5 HD.th" tvg-name="TV5 HD" group-title="Digital TV" tvg-logo="https://raw.githubusercontent.com/akkradet/IPTV-THAI/master/logo/ch5new.logo.png",TV5 HD
-#EXTVLCOPT:http-user-agent=Android ExoPlayer/2.17.0
+#EXTINF: -1 tvg-id="TV5 HD.th" tvg-name="TV5 HD" tvg-chno="39" tvg-logo="https://raw.githubusercontent.com/akkradet/IPTV-THAI/master/logo/ch5new.logo.png" group-title="Digital TV", TV5 HD
 https://cdn6.goprimetime.info/feed/eI5rczhSQpWBcgOtqRLNWw/ch5hd3/index.m3u8
-
-#EXTINF:-1 tvg-chno="40" tvg-id="Boomerang.th" tvg-name="Boomerang Thai" group-title="Digital TV" tvg-logo="https://raw.githubusercontent.com/akkradet/IPTV-THAI/master/logo/Boomerang_2.png",Boomerang Thai
-#EXTVLCOPT:http-user-agent=Android ExoPlayer/2.17.0
+#EXTINF: -1 tvg-id="ALTV4.th" tvg-name="ALTV" tvg-chno="38" tvg-logo="https://cms.dmpcdn.com/livetv/2020/07/14/72c22620-c5aa-11ea-a8d3-2b56c8ce453d_original.png" group-title="Digital TV", ALTV
+https://cdn6.goprimetime.info/feed/eI5rczhSQpWBcgOtqRLNWw/ALTV3/index.m3u8
+#EXTINF: -1 tvg-id="Boomerang.th" tvg-name="Boomerang Thai" tvg-chno="40" tvg-logo="https://raw.githubusercontent.com/akkradet/IPTV-THAI/master/logo/Boomerang_2.png" group-title="Digital TV", Boomerang Thai
 https://cdn6.goprimetime.info/feed/eI5rczhSQpWBcgOtqRLNWw/chboomberang/index.m3u8
-
-#EXTINF:-1 tvg-chno="41" tvg-id="T-Sports7.th" tvg-name="T-Sports7" group-title="Digital TV" tvg-logo="https://raw.githubusercontent.com/akkradet/IPTV-THAI/master/logo/T-SPorts_7_Final.png",T-Sports7
-#EXTVLCOPT:http-user-agent=Android ExoPlayer/2.17.0
+#EXTINF: -1 tvg-id="T-Sports7.th" tvg-name="T-Sports7" tvg-chno="41" tvg-logo="https://raw.githubusercontent.com/akkradet/IPTV-THAI/master/logo/T-SPorts_7_Final.png" group-title="Digital TV", T-Sports7
 https://cdn6.goprimetime.info/feed/eI5rczhSQpWBcgOtqRLNWw/chtsport3/index.m3u8
-
-#EXTINF:-1 tvg-id="CCTV4K.cn" tvg-name="CCTV-4K" group-title="Digital TV" tvg-logo="https://i.imgur.com/fxusYlX.png",CCTV4K
-#EXTVLCOPT:http-user-agent=Android ExoPlayer/2.17.0
-http://27.222.3.214/liveali-tp4k.cctv.cn/live/4K10M.stream/1.m3u8
-
-#EXTINF:-1 tvg-id="CCTV1.cn" tvg-name="CCTV-1" group-title="Digital TV" tvg-logo="https://i.imgur.com/TpA3cUl.png",CCTV-1
-#EXTVLCOPT:http-user-agent=Android ExoPlayer/2.17.0
+#EXTINF: -1 tvg-id="CCTV1.cn" tvg-name="CCTV-1" tvg-logo="https://i.imgur.com/TpA3cUl.png" group-title="Digital TV", CCTV-1
 https://node1.olelive.com:6443/live/CCTV1HD/hls.m3u8
-
-#EXTINF:-1 tvg-id="CCTV5.cn" tvg-name="CCTV-5" group-title="Digital TV" tvg-logo="https://i.imgur.com/nbmnGwE.png",CCTV-5
-#EXTVLCOPT:http-user-agent=Android ExoPlayer/2.17.0
+#EXTINF: -1 tvg-id="CCTV5.cn" tvg-name="CCTV-5" tvg-logo="https://i.imgur.com/nbmnGwE.png" group-title="Digital TV", CCTV-5
 https://node1.olelive.com:6443/live/CCTV5HD/hls.m3u8
-
-#EXTINF:-1 tvg-id="CCTV5Plus.cn" tvg-name="CCTV-5" group-title="Digital TV" tvg-logo="https://i.imgur.com/OK8mdJV.png",CCTV5+
-#EXTVLCOPT:http-user-agent=Android ExoPlayer/2.17.0
+#EXTINF: -1 tvg-id="CCTV5Plus.cn" tvg-name="CCTV-5" tvg-logo="https://i.imgur.com/OK8mdJV.png" group-title="Digital TV", CCTV5+
 https://node1.olelive.com:6443/live/CCTV5PHD/hls.m3u8
-
-#EXTINF:-1 channel-id="samsung-US400002PS" tvg-id="US400002PS" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US400002PS_20240611T050328SQUARE.png" tvg-chno="1000" group-title="Comedy" , Animation+
+#EXTINF: -1 tvg-id="QazSport.kz" tvg-name="QazSport" tvg-logo="https://i.imgur.com/UDJ0P5Q.png" tvg-logo-small="https://i.imgur.com/UDJ0P5Q.png" group-title="Digital TV", QazSport
+https://qazsporttv-stream.qazcdn.com/qazsporttv/qazsporttv/playlist.m3u8
+#EXTINF: -1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/CNN_International_logo.svg/512px-CNN_International_logo.svg.png" group-title="Digital TV", CNN
+https://turnerlive.warnermediacdn.com/hls/live/586495/cnngo/cnn_slate/VIDEO_0_3564000.m3u8
+#EXTINF: -1 tvg-id="CBSNews.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/CBS_News_logo_%282020%29.svg/512px-CBS_News_logo_%282020%29.svg.png" group-title="Digital TV", CBS News
+https://cbsn-us.cbsnstream.cbsnews.com/out/v1/55a8648e8f134e82a470f83d562deeca/master.m3u8
+#EXTINF: -1 tvg-id="ABCNews.us" tvg-logo="https://images-na.ssl-images-amazon.com/images/I/61YDuS-81ML.png" group-title="Digital TV", ABC News US
+https://content.uplynk.com/channel/3324f2467c414329b3b0cc5cd987b6be.m3u8
+#EXTINF: -1 tvg-id="ABCNews.au" tvg-logo="https://i.imgur.com/laB0kug.png" group-title="Digital TV", ABC News Australia
+https://abc-iview-mediapackagestreams-2.akamaized.net/out/v1/6e1cc6d25ec0480ea099a5399d73bc4b/index_45.m3u8
+#EXTINF: -1 tvg-id="CNA.sg" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/CNA_new_logo.svg/512px-CNA_new_logo.svg.png" group-title="Digital TV", CNA
+https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index_5.m3u8
+#EXTINF: -1 tvg-id="DWEnglish.de" tvg-logo="https://i.imgur.com/A1xzjOI.png" group-title="Digital TV", DW English
+https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/stream05/streamPlaylist.m3u8
+#EXTINF: -1 tvg-id="BloombergTelevision.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/3/3b/Bloomberg_Television_2016.png" group-title="Digital TV", Bloomberg TV US
+https://bloomberg-bloomberg-3-br.samsung.wurl.com/manifest/playlist.m3u8
+#EXTINF: -1 tvg-logo="https://i.imgur.com/zY7VbFh.png" group-title="Digital TV", France 24
+https://ythls.armelin.one/channel/UCCCPCZNChQdGa9EkATeye4g.m3u8
+#EXTINF: -1 tvg-logo="https://i.imgur.com/eITXz6A.png" group-title="Digital TV", Franceinfo
+https://helpfulpost.net/franceinfo/tracks-v1a1/mono.m3u8
+#EXTINF: -1 tvg-id="KBSWorld.kr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/KBS_World_%282009%29.svg/512px-KBS_World_%282009%29.svg.png" group-title="Digital TV", KBS World
+https://kbsworld-ott.akamaized.net/hls/live/2002341/kbsworld/master.m3u8
+#EXTINF: -1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/EBS_KIDS.svg/320px-EBS_KIDS.svg.png" group-title="Digital TV", EBS Kids
+https://ebsonair.ebs.co.kr/ebsufamilypc/familypc1m/chunklist.m3u8
+#EXTINF: -1 tvg-id="PhoenixInfoNewsChannel.hk" tvg-logo="https://i.imgur.com/TCqVO3f.png" group-title="Digital TV", Phoenix InfoNews Channel (鳳凰衛視資訊)
+http://210.210.155.37/uq2663/h/h157/index2.m3u8
+#EXTINF: -1 tvg-logo="https://i.imgur.com/Q1Mrvjj.png" group-title="Digital TV", Global News
+https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV02.m3u8
+#EXTINF: -1 tvg-logo="https://i.imgur.com/j9Gebr5.png" group-title="Digital TV", FTV News
+https://ythls.armelin.one/channel/UC2VmWn8dAqkzlQqvy02E1PA.m3u8
+#EXTINF: -1 tvg-logo="https://i.imgur.com/171lwfg.png" group-title="Digital TV", TVBS News
+https://ythls.armelin.one/channel/UC5nwNW4KdC0SzrhF9BXEYOQ.m3u8
+#EXTINF: -1 tvg-id="DaAi1.tw" tvg-logo="https://i.imgur.com/KdJi9af.png" group-title="Digital TV", DaAi1 (大愛1)
+https://pulltv2.wanfudaluye.com/live/tv1.m3u8
+#EXTINF: -1 tvg-id="DaAi1.tw" tvg-logo="https://i.imgur.com/KdJi9af.png" group-title="Digital TV", DaAi2
+https://pulltv2.wanfudaluye.com/live/tv2.m3u8
+#EXTINF: -1 tvg-logo="https://i.imgur.com/fAZ2BEZ.png" group-title="Digital TV", NHK General
+http://203.162.235.41:14093
+#EXTINF: -1 tvg-logo="https://i.imgur.com/lbdQtOq.png" group-title="Digital TV", NTV News24
+https://n24-cdn-live.ntv.co.jp/ch01/index.m3u8
+#EXTINF: -1 tvg-logo="https://m.media-amazon.com/images/I/61rrCc7UQAL.png" group-title="Digital TV", MUTV
+https://bcovlive-a.akamaihd.net/r2d2c4ca5bf57456fb1d16255c1a535c8/eu-west-1/6058004203001/playlist.m3u8
+#EXTINF: -1 tvg-logo="https://ftv.tj/img/logo/fft_retina.png" group-title="Digital TV", FutBol
+https://live.teleradiocom.tj/8/3m.m3u8
+#EXTINF: -1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/FIFA_logo_without_slogan.svg/768px-FIFA_logo_without_slogan.svg.png" group-title="Digital TV", FIFA+
+https://6d42a49f.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/U2Ftc3VuZy1pdF9GSUZBUGx1c19ITFM/playlist.m3u8
+#EXTINF: -1 tvg-logo="https://www.cxtv.com.br/img/Tvs/Logo/webp-m/c871bb969e8076f811e7f7522ba7e545.webp" group-title="Digital TV", Real Madrid TV
+https://stream.ads.ottera.tv/playlist.m3u8?network_id=1545
+#EXTINF: -1 tvg-logo="https://i.imgur.com/1luzP3T.png" group-title="Digital TV", Kartoon Channel!
+https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg01076-lightningintern-kartoonchannel-samsungnz/playlist.m3u8
+#EXTINF: -1 tvg-id="ZooMooAustralia.au" tvg-logo="https://i.imgur.com/1wYnA2i.jpg" group-title="Digital TV", Zoo Moo Australia
+https://zoomoo-samsungau.amagi.tv/playlist1080p.m3u8
+#EXTINF: -1 tvg-id="MoonbugKids.uk" tvg-logo="https://i.imgur.com/nuzIBbN.png" group-title="Digital TV", Moonbug Kids
+https://moonbug-rokuus.amagi.tv/playlist720-p.m3u8
+#EXTINF: -1 tvg-id="PinkfongBabyShark.us" tvg-logo="https://i.imgur.com/1MGJg18.jpg" group-title="Digital TV", Pinkfong Baby Shark
+https://newidco-babysharktv-1-us.roku.wurl.tv/playlist.m3u8
+#EXTINF: -1 tvg-id="LittleBabyBum.us" tvg-logo="https://i.imgur.com/ISymAEy.png" group-title="Digital TV", Pluto TV Little Baby Bum
+https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5eb301b7395671000780d100/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=0&deviceId=5eb301b7395671000780d100&deviceLat=&deviceLon=&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=US&serverSideAds=false&sid=995&terminate=false&userId=
+#EXTINF: -1 tvg-id="ParamountMovieChannel.us" tvg-logo="https://images.pluto.tv/channels/5cb0cae7a461406ffe3f5213/colorLogoPNG.png" group-title="Digital TV", Paramount Movie Channel
+http://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5cb0cae7a461406ffe3f5213/master.m3u8?advertisingId=91a6ae51-6f9d-4fbb-adb0-bdfffa44693e&appVersion=unknown&deviceDNT=0&deviceId=91a6ae51-6f9d-4fbb-adb0-bdfffa44693e&deviceLat=0&deviceLon=0&deviceMake=samsung&deviceModel=samsung&deviceType=samsung-tvplus&deviceUA=samsung/SM-T720/10&deviceVersion=unknown&embedPartner=samsung-tvplus&profileFloor=&profileLimit=&samsung_app_domain=https://play.google.com/store/apps/details?id=com.samsung.android.tvplus&samsung_app_name=Mobile+TV+Plus&us_privacy=1YNY
+#EXTINF: -1 tvg-id="MTVPlutoTV.us" tvg-logo="https://images.pluto.tv/channels/5ca672f515a62078d2ec0ad2/colorLogoPNG.png" group-title="Digital TV", Pluto TV MTV
+http://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5ca672f515a62078d2ec0ad2/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=0&deviceId=5ca672f515a62078d2ec0ad2&deviceLat=&deviceLon=&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=US&serverSideAds=false&sid=178&terminate=false&userId=
+#EXTINF: -1 tvg-id="TVSTravelNetwork.us" tvg-logo="https://i.imgur.com/Bgqy4fL.jpg" group-title="Digital TV", TVS Travel Network
+https://rpn1.bozztv.com/36bay2/gusa-tvstravel/index.m3u8
+#EXTINF: -1 tvg-id="CGTNDocumentary.cn" tvg-logo="https://i.imgur.com/JHv0WxM.png" group-title="Digital TV", CGTN Documentary
+https://livedoc.cgtn.com/1000d/prog_index.m3u8
+#EXTINF: -1 tvg-id="PlutoTVAnimals.us" tvg-logo="https://i.imgur.com/N00seOn.png" group-title="Digital TV", Pluto TV Animals
+https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/56b27f85ff3037045055037e/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=0&deviceId=56b27f85ff3037045055037e&deviceLat=&deviceLon=&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=US&serverSideAds=false&sid=666&terminate=false&userId=
+#EXTINF: -1 tvg-id="PlutoTVAnimalsUK.uk" tvg-logo="https://i.imgur.com/KuPue6S.png" group-title="Digital TV", Pluto TV Animals (England)
+https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5ddf8ea0d000120009bcad83/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=0&deviceId=5ddf8ea0d000120009bcad83&deviceLat=&deviceLon=&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=US&serverSideAds=false&sid=550&terminate=false&userId=
+#EXTINF: -1 tvg-id="US400002PS" tvg-chno="1000" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US400002PS_20240611T050328SQUARE.png" group-title="Comedy", Animation+
 https://i.mjh.nz/SamsungTVPlus/US400002PS.m3u8
-
-#EXTINF:-1 channel-id="samsung-USBD1700006T2" tvg-id="USBD1700006T2" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBD1700006T2_20240611T050337SQUARE.png" tvg-chno="1001" group-title="Reality Competition" , Storage Wars: LA
+#EXTINF: -1 tvg-id="USBD1700006T2" tvg-chno="1001" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBD1700006T2_20240611T050337SQUARE.png" group-title="Reality Competition", Storage Wars: LA
 https://i.mjh.nz/SamsungTVPlus/USBD1700006T2.m3u8
-
-#EXTINF:-1 channel-id="samsung-USBD490000209" tvg-id="USBD490000209" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBD490000209_20240611T050330SQUARE.png" tvg-chno="1003" group-title="Kids" , Barbie and Friends
+#EXTINF: -1 tvg-id="USBD490000209" tvg-chno="1003" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBD490000209_20240611T050330SQUARE.png" group-title="Kids", Barbie and Friends
 https://i.mjh.nz/SamsungTVPlus/USBD490000209.m3u8
-
-#EXTINF:-1 channel-id="samsung-USBA370000104" tvg-id="USBA370000104" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBA370000104_20240520T222610SQUARE.png" tvg-chno="1110" group-title="News & Opinion" , CBS News 24/7
+#EXTINF: -1 tvg-id="USBA370000104" tvg-chno="1110" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBA370000104_20240520T222610SQUARE.png" group-title="News & Opinion", CBS News 24/7
 https://i.mjh.nz/SamsungTVPlus/USBA370000104.m3u8
-
-#EXTINF:-1 channel-id="samsung-USBC39000171G" tvg-id="USBC39000171G" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBC39000171G_20240520T223555SQUARE.png" tvg-chno="1112" group-title="News & Opinion" , ABC News Live
+#EXTINF: -1 tvg-id="USBC39000171G" tvg-chno="1112" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBC39000171G_20240520T223555SQUARE.png" group-title="News & Opinion", ABC News Live
 https://i.mjh.nz/SamsungTVPlus/USBC39000171G.m3u8
-
-#EXTINF:-1 channel-id="samsung-USBB2200014DK" tvg-id="USBB2200014DK" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBB2200014DK_20240520T222732SQUARE.png" tvg-chno="1114" group-title="News & Opinion" , NBC News NOW
+#EXTINF: -1 tvg-id="USBB2200014DK" tvg-chno="1114" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBB2200014DK_20240520T222732SQUARE.png" group-title="News & Opinion", NBC News NOW
 https://i.mjh.nz/SamsungTVPlus/USBB2200014DK.m3u8
-
-#EXTINF:-1 channel-id="samsung-USBA300024TN" tvg-id="USBA300024TN" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBA300024TN_20240520T222706SQUARE.png" tvg-chno="1116" group-title="News & Opinion" , LiveNOW from FOX
+#EXTINF: -1 tvg-id="USBA300024TN" tvg-chno="1116" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBA300024TN_20240520T222706SQUARE.png" group-title="News & Opinion", LiveNOW from FOX
 https://i.mjh.nz/SamsungTVPlus/USBA300024TN.m3u8
-
-#EXTINF:-1 channel-id="samsung-USBD3000073N" tvg-id="USBD3000073N" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBD3000073N_20240520T223411SQUARE.png" tvg-chno="1119" group-title="News & Opinion" , Scripps News
+#EXTINF: -1 tvg-id="USBD3000073N" tvg-chno="1119" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBD3000073N_20240520T223411SQUARE.png" group-title="News & Opinion", Scripps News
 https://i.mjh.nz/SamsungTVPlus/USBD3000073N.m3u8
-
-#EXTINF:-1 channel-id="samsung-USBC3200005A0" tvg-id="USBC3200005A0" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBC3200005A0_20240528T010011SQUARE.png" tvg-chno="1122" group-title="News & Opinion" , NBC Bay Area News
+#EXTINF: -1 tvg-id="USBC3200005A0" tvg-chno="1122" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBC3200005A0_20240528T010011SQUARE.png" group-title="News & Opinion", NBC Bay Area News
 https://i.mjh.nz/SamsungTVPlus/USBC3200005A0.m3u8
-
-#EXTINF:-1 channel-id="samsung-USBC4400010RH" tvg-id="USBC4400010RH" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBC4400010RH_20240520T223244SQUARE.png" tvg-chno="1123" group-title="News & Opinion" , ABC7 Bay Area
+#EXTINF: -1 tvg-id="USBC4400010RH" tvg-chno="1123" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBC4400010RH_20240520T223244SQUARE.png" group-title="News & Opinion", ABC7 Bay Area
 https://i.mjh.nz/SamsungTVPlus/USBC4400010RH.m3u8
-
-#EXTINF:-1 channel-id="samsung-USBD2700010WB" tvg-id="USBD2700010WB" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBD2700010WB_20240520T223302SQUARE.png" tvg-chno="1124" group-title="News & Opinion" , CBS News Bay Area
+#EXTINF: -1 tvg-id="USBD2700010WB" tvg-chno="1124" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBD2700010WB_20240520T223302SQUARE.png" group-title="News & Opinion", CBS News Bay Area
 https://i.mjh.nz/SamsungTVPlus/USBD2700010WB.m3u8
-
-#EXTINF:-1 channel-id="samsung-USBD2700019N0" tvg-id="USBD2700019N0" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBD2700019N0_20240520T223334SQUARE.png" tvg-chno="1125" group-title="News & Opinion" , FOX 2 San Francisco
+#EXTINF: -1 tvg-id="USBD2700019N0" tvg-chno="1125" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBD2700019N0_20240520T223334SQUARE.png" group-title="News & Opinion", FOX 2 San Francisco
 https://i.mjh.nz/SamsungTVPlus/USBD2700019N0.m3u8
-
-#EXTINF:-1 channel-id="samsung-USBD700003L7" tvg-id="USBD700003L7" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBD700003L7_20240520T222853SQUARE.png" tvg-chno="1130" group-title="News & Opinion" , FOX Weather
+#EXTINF: -1 tvg-id="USBD700003L7" tvg-chno="1130" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBD700003L7_20240520T222853SQUARE.png" group-title="News & Opinion", FOX Weather
 https://i.mjh.nz/SamsungTVPlus/USBD700003L7.m3u8
-
-#EXTINF:-1 channel-id="samsung-USBB3600008BU" tvg-id="USBB3600008BU" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBB3600008BU_20240520T223443SQUARE.png" tvg-chno="1135" group-title="News & Opinion" , WN San Francisco
+#EXTINF: -1 tvg-id="USBB3600008BU" tvg-chno="1135" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBB3600008BU_20240520T223443SQUARE.png" group-title="News & Opinion", WN San Francisco
 https://i.mjh.nz/SamsungTVPlus/USBB3600008BU.m3u8
-
-#EXTINF:-1 channel-id="samsung-US4000033L" tvg-id="US4000033L" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US4000033L_20240520T223600SQUARE.png" tvg-chno="1140" group-title="News & Opinion" , BBC News
+#EXTINF: -1 tvg-id="US4000033L" tvg-chno="1140" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US4000033L_20240520T223600SQUARE.png" group-title="News & Opinion", BBC News
 https://i.mjh.nz/SamsungTVPlus/US4000033L.m3u8
-
-#EXTINF:-1 channel-id="samsung-USBB52000022Q" tvg-id="USBB52000022Q" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBB52000022Q_20240520T223417SQUARE.png" tvg-chno="1145" group-title="News & Opinion" , Sky News
+#EXTINF: -1 tvg-id="USBB52000022Q" tvg-chno="1145" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBB52000022Q_20240520T223417SQUARE.png" group-title="News & Opinion", Sky News
 https://i.mjh.nz/SamsungTVPlus/USBB52000022Q.m3u8
-
-#EXTINF:-1 channel-id="samsung-USBC4400003OU" tvg-id="USBC4400003OU" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBC4400003OU_20240528T020901SQUARE.png" tvg-chno="1150" group-title="News & Opinion" , CBC News International
+#EXTINF: -1 tvg-id="USBC4400003OU" tvg-chno="1150" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBC4400003OU_20240528T020901SQUARE.png" group-title="News & Opinion", CBC News International
 https://i.mjh.nz/SamsungTVPlus/USBC4400003OU.m3u8
-
-#EXTINF:-1 channel-id="samsung-USAJ3400011A8" tvg-id="USAJ3400011A8" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USAJ3400011A8_20240520T222836SQUARE.png" tvg-chno="1155" group-title="News & Opinion" , Bloomberg TV+ UHD
+#EXTINF: -1 tvg-id="USAJ3400011A8" tvg-chno="1155" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USAJ3400011A8_20240520T222836SQUARE.png" group-title="News & Opinion", Bloomberg TV+ UHD
 https://i.mjh.nz/SamsungTVPlus/USAJ3400011A8.m3u8
-
-#EXTINF:-1 channel-id="samsung-USAJ30000041W" tvg-id="USAJ30000041W" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USAJ30000041W_20240520T222834SQUARE.png" tvg-chno="1160" group-title="News & Opinion" , Bloomberg Originals
+#EXTINF: -1 tvg-id="USAJ30000041W" tvg-chno="1160" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USAJ30000041W_20240520T222834SQUARE.png" group-title="News & Opinion", Bloomberg Originals
 https://i.mjh.nz/SamsungTVPlus/USAJ30000041W.m3u8
-
-#EXTINF:-1 channel-id="samsung-USAJ4300005PJ" tvg-id="USAJ4300005PJ" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USAJ4300005PJ_20240520T222814SQUARE.png" tvg-chno="1165" group-title="News & Opinion" , Yahoo Finance
+#EXTINF: -1 tvg-id="USAJ4300005PJ" tvg-chno="1165" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USAJ4300005PJ_20240520T222814SQUARE.png" group-title="News & Opinion", Yahoo Finance
 https://i.mjh.nz/SamsungTVPlus/USAJ4300005PJ.m3u8
